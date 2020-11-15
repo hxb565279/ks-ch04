@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="ch04:ear exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/ch04_ear_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="ch04/javaeeApplication/javaEEApplication" />
+      <element id="directory" name="web.war">
+        <element id="artifact" artifact-name="ch04:war exploded" />
+      </element>
+      <element id="directory" name="lib">
+        <element id="file-copy" path="$PROJECT_DIR$/../源代码/chapter04/WebContent/WEB-INF/lib/commons-logging-1.2.jar" />
+        <element id="file-copy" path="$PROJECT_DIR$/../源代码/chapter04/WebContent/WEB-INF/lib/spring-tx-4.3.6.RELEASE.jar" />
+        <element id="file-copy" path="$PROJECT_DIR$/../源代码/chapter04/WebContent/WEB-INF/lib/spring-core-4.3.6.RELEASE.jar" />
+        <element id="file-copy" path="$PROJECT_DIR$/../源代码/chapter04/WebContent/WEB-INF/lib/spring-jdbc-4.3.6.RELEASE.jar" />
+        <element id="file-copy" path="$PROJECT_DIR$/../源代码/chapter04/WebContent/WEB-INF/lib/mysql-connector-java-5.1.8.jar" />
+        <element id="file-copy" path="$PROJECT_DIR$/../源代码/chapter04/WebContent/WEB-INF/lib/spring-beans-4.3.6.RELEASE.jar" />
+        <element id="file-copy" path="$PROJECT_DIR$/../源代码/chapter04/WebContent/WEB-INF/lib/spring-context-4.3.6.RELEASE.jar" />
+        <element id="file-copy" path="$PROJECT_DIR$/../源代码/chapter04/WebContent/WEB-INF/lib/spring-expression-4.3.6.RELEASE.jar" />
+      </element>
+    </root>
+  </artifact>
+</component>
